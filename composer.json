@@ -4,7 +4,7 @@
     "bin": [
         "./rhi",
         "./rbye"
-    ]
+    ],
     "scripts": {
 	"phpcs": "phpcs"
 	},
