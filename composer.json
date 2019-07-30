@@ -1,5 +1,6 @@
 {
     "name": "rekoshed/reko-fp-php",
+    "description": "my first package",
     "bin": [
         "./rhi",
         "./rbye"
@@ -19,7 +20,9 @@
         }
     ],
     "require": {
-        "tightenco/collect": "^5.8"
+        "tightenco/collect": "^5.8",
+	 "php": "^7.2",
+        "another-vendor/package": "1.*"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.2",
